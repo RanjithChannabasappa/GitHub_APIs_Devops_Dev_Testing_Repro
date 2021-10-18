@@ -22,5 +22,5 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         
-    - name: Creating Devops Team
+    - name: Creating Devops Teams
       run: curl -u ${{secrets.USR_NAM}}:${{secrets.PASS}} -H "Accept:application/vnd.github.v3+json" https://api.github.com/users/ranjithchannabasappa/repos
