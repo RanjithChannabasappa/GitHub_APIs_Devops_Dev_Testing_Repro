@@ -23,4 +23,4 @@ jobs:
         distribution: 'adopt'
         
     - name: Creating Devops Team
-      run: curl -u ranjithchannabasappa:sLRs6rc$ -H "Accept:application/vnd.github.v3+json" https://api.github.com/users/ranjithchannabasappa/repos
+      run: curl -u ${{secrets.USR_NAM}}:${{secrets.PASS}} -H "Accept:application/vnd.github.v3+json" https://api.github.com/users/ranjithchannabasappa/repos
