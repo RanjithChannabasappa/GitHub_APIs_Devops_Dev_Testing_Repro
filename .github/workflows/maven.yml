@@ -25,4 +25,4 @@ jobs:
     - name: Creating Devops Team
       run: |
         echo "Login to GitHub"
-        curl GET --header "Accept: application/json" --header "x-api-key: ranjithchannabasappa" --header "Authorization: Bearer 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" "/users/ranjithchannabasappa/repos"
+        curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/users/USERNAME/repos
