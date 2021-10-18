@@ -23,6 +23,4 @@ jobs:
         distribution: 'adopt'
         
     - name: Creating Devops Team
-      run: |
-        echo "Login to GitHub"
-        curl -i -H "Authorization: token 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" https://api.github.com/user/repos 
+      run: curl -i -H "Authorization:token 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" https://api.github.com/user/repos
