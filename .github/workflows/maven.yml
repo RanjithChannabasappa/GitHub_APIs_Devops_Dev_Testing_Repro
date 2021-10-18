@@ -25,4 +25,4 @@ jobs:
     - name: Creating Devops Team
       run: |
         echo "Login to GitHub"
-        curl \ -H "Accept: application/vnd.github.v3+json" \ https://api.github.com/users/ranjithchannabasappa
+        curl https://api.github.com/users/ranjithchannabasappa
