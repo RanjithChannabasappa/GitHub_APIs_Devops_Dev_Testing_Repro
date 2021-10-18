@@ -25,4 +25,4 @@ jobs:
     - name: Creating Devops Team
       run: |
         echo "Login to GitHub"
-        curl -i -u 'ranjithchannabasappa':'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' https://api.github.com/user
+        curl -i -u "ranjithchannabasappa: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" https://api.github.com/user
